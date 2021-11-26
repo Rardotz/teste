@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="B.css">
+    <title>LOCAL</title>
+</head>
+<body>
+
+    <header>
+        <img src="hc.png" width="100%">
+    </header>
+
+    <main>
+        <section class="local">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60573303.89599193!2d-91.03805311799039!3d22.083956860774553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9acf62860c51b%3A0xde33357d12daa886!2sTesla!5e0!3m2!1spt-BR!2sbr!4v1637923058232!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
+
+    <center>
+        <a href="file:///C:/Users/aluno/Desktop/em%20andamento/TGIAM11.html">
+        <img src="bv.png" width="110px">
+        </a>
+</center>
+
+</body>
+</html>
