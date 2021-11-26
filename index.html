@@ -1,29 +1,402 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="B.css">
-    <title>LOCAL</title>
+	<meta charset="utf-8">
+	<title> SHOP ACTION </title>
+	<link rel="stylesheet" href="C.css">
 </head>
-<body>
 
-    <header>
-        <img src="hc.png" width="100%">
-    </header>
+<body>	
 
-    <main>
-        <section class="local">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60573303.89599193!2d-91.03805311799039!3d22.083956860774553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9acf62860c51b%3A0xde33357d12daa886!2sTesla!5e0!3m2!1spt-BR!2sbr!4v1637923058232!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </section>
-    </main>
+</style>
 
-    <center>
-        <a href="file:///C:/Users/aluno/Desktop/em%20andamento/TGIAM11.html">
-        <img src="bv.png" width="110px">
-        </a>
+<header>
+		<Center><img src="hc.png" width="100%"></center>
+</header>
+<nav>
+    <ul class="menu">
+      <li><a href="file:///C:/Users/aluno/Desktop/em%20andamento/TGIAM11.html">HOME</a>
+        <ul>
+            <li><a href="file:///C:/Users/aluno/Desktop/em%20andamento/LOCAL.html">LOCAL</a></li>
+            <li><a href="file:///C:/Users/Augusto/Desktop/PROJETO%20SITE%20D/SOBRE.html">SOBRE</a></li>
+			<li><a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html">PROMOÇOES</a></li>
+			<li><a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html">EM BREVE</a></li>
+       </ul>
+      </li>
+      <li><a href="file:///C:/Users/Augusto/Desktop/PROJETO%20SITE%20D/GAMES.html">CATALOGO</a>
+		<ul>
+            <li><a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html">MARVEL</a></li>
+			<li><a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html">DC COMICS</a></li>
+			<li><a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html">FILMES</a></li>
+            <li><a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html">ANIMES</a></li>
+            <li><a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html">GAMES</a></li>
+            <li><a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html">SERIADOS</a></li>
+			<li><a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html">MANGAS</a></li>
+            <li><a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html">DIVERSOS</a></li>
+       </ul>
+	</li>
+      <li><a href="file:///C:/Users/aluno/Desktop/em%20andamento/SUPORTE.html">SUPORTE</a></li>
+  </ul>
+  </nav>
+<br><br><br><br>
+
+<br>
+<fieldset class="vad">
+  <br>
+      <section class="galery">
+          <div class="fotos">
+              <img src="4.png" alt="Foto01">
+              <img src="5.png" alt="Foto02">
+              <img src="6.png" alt="Foto03">
+          </div>
+      </section>
+  <br>
+</fieldset>
+<br>
+
+<br><br><br><br>
+<br><br><br><br>
+
+<div class="maskad">
+<b>
+	<div class="campo">
+		<label class="sdd" for="senioridade"><font color="#313177" face="arial"><strong>Filtrar por:</strong></label>
+		<select id="senioridade" required>
+		  <option class="r" selected disabled value="">Selecione</option>
+		  <option class="r">Animes</option>
+		  <option class="r">Series</option>
+		  <option class="r">Filmes</option>
+		</select>
+		<br>
+		<button class="ffa" type="button">
+          <b>
+			<a class="tec">Fltrar!
+		  </b>
+		</button>
+	</font>
+	</div>
+	</div>
+	<select class="faild" id="senioridade" required>
+		<option class="r" selected disabled value="">Fabricante</option>
+		<option class="r">Bandai</option>
+		<option class="r">kotobukiya</option>
+		<option class="r">Diamond</option>
+		<option class="r">Mega House</option>
+		<option class="r">EFX</option>
+		<option class="r">Funko</option>
+		<option class="r">Dark Horse</option>
+		<option class="r">Pure Arts</option>
+		<option class="r">Premier Toys</option>
+	</select>
+<br>
+<br>
+<button class="ffr" type="button">
+	<b>
+	  <a class="">🛒 Carrinho
+	</b>
+  </button>
+  <button class="ffz" type="button">
+	<b>
+	  <a href="file:///C:/Users/aluno/Desktop/em%20andamento/LOGIN.html" class="login">👤
+	</b>
+  </button>
+<br>
+<br>
+<center>
+<div class="search-box">
+	<input class="search-txt" type="text" name="" id="" placeholder="Buscar">
+	<a href="#" class="search-btn">
+		<img src="Lupa.png" alt="" width="30px">
+		<i class="fas-fa-search"></i>
+	</a>
+</div>
+<br>
+<br>
+
+<center>
+	<div id="box">
+		<ul class="estilizacao">
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>One Piece</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Nanatsu</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Bleach</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Death Note</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Ore Dake...</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>			
+		</ul>
+	</div>
+</center>
+<center>
+	<div id="box">
+		<ul class="estilizacao">
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Konosuba</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Isekai wa...</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Akashic R</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Dungeon...</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Grisaia</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>			
+		</ul>
+	</div>
 </center>
 
-</body>
-</html>
+<center>
+	<div id="box">
+		<ul class="estilizacao">
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Konosuba</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Isekai wa...</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Nico Robin </strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Dungeon...</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Grisaia</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>			
+		</ul>
+	</div>
+</center>
+
+<center>
+	<div id="box">
+		<ul class="estilizacao">
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Konosuba</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Isekai wa...</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src= "simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Akashic R</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Dungeon...</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Dungeon...</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Dungeon...</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Dungeon...</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Dungeon...</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>
+			<li>
+				<img class="citrico" src="simpli.png" alt="">
+				<div class="conteudo">
+					<p class="nome-secao"><strong>Dungeon...</strong></p>
+					<p class="descricao"><strong>R$ 999,99</strong></p>
+					<br>
+					<a href="file:///C:/Users/aluno/Desktop/em%20andamento/COMPRAR%20NC.html" class="btn-more"><strong>COMPRAR</strong></a>
+				</div>
+			</li>		
+		</ul>
+	</div>
+</center>
+
+<ul>
+	<dl>
+		<h1><font face="arial" color="#313177" class="bt">✖️<i>_______________________________________________________________________________</i>✖️</font></h1>
+	    <h1><font face="arial" class="bt">✖️<i>➖➖➖➖➖➖➖➖➖Novos lançamentos em Dezembro➖➖➖➖➖➖➖➖➖</i>✖️</font></h1>
+	</dl>
+  </ul>
+  
+  <footer class="rr">
+	<img src="Design sem nome.png" width="100%">
+  
+	<br>
+	<br>
+	<br>
+  
+	<ul class="rr">
+	  <dl>
+		<h1><font color="black">FALE CONOSCO</font></h1>
+	  </dl>
+	</ul>
+  
+  <br>
+  
+	<ul class="rr">
+	  <dl>
+		<a href="https://www.google.com/intl/pt/gmail/about/#"><h2><font color="black">suport.tesla@gmail.com</h2></font></a>
+		<h2><font color="black">Atendimento de segunda a sexta</h2></font>
+		<h2><font color="black">das 8 as 17 horas</h2></font>
+	  </dl>
+	</ul>
+  
+  <br>
+  
+  <center>
+	<a href="https://pt-br.facebook.com/"><img src="Design sem nome/1.png" width="60px"></a>
+	<a href="https://www.instagram.com/"><img src="Design sem nome/2.png" width="60px"></a>
+	<a href="https://twitter.com/"><img src="Design sem nome/3.png" width="60px"></a>
+	<a href="https://www.snapchat.com/"><img src="Design sem nome/4.png" width="60px"></a>
+	<a href="https://web.whatsapp.com/"><img src="Design sem nome/5.png" width="60px"></a>
+  </center>
+  
+  <br>
+  <br>
+  
+  </footer>
