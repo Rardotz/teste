@@ -1,0 +1,27 @@
+:root{
+    --fundo: #202239;
+    --azul: #1f65c2;
+    --laranja:#d45f25;
+    --branco:#c3c6f5;
+}
+
+*{
+  margin: 0%; padding: 0%;
+  background-color: rgb(175, 173, 202);
+}
+
+.local{
+    margin: 30px;
+    background-color: var(--laranja);
+    text-align: center;
+    border-radius: 40px;
+}
+
+iframe{
+    margin: 8px;
+}
+
+footer{
+    clear: both;
+    width: 100px;
+}
